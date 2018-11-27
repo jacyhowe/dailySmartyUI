@@ -37,14 +37,23 @@
         line-height: 22px;
     }
     .result-post__links {
-        // display: flex;
+        display: flex;
+        height: 70px;
 
     }
+}
+
+.no-content {
+    color: $color-gray-one;
+    font-size: 14px;
+    line-height: 17px;
 }
 
 .post-link {
     min-height: 70px;
     display: flex;
+    flex-basis: 205px;
+    margin-right: 37px;
     
 
     .post-link__box {
